@@ -12,6 +12,10 @@
     <description>Android binding package for Aidan Follestad's sectioned-recyclerview. For more information, follow this description: https://github.com/azchohfi/SectionedRecyclerview.Droid/blob/master/README.md</description>
     <tags>SectionedRecyclerview sectioned section recyclerview android droid xamarin</tags>
 	<iconUrl>http://i.imgur.com/f8yW8wO.png</iconUrl>
+	<dependencies>
+		<dependency id="Xamarin.Android.Support.v4" version="23.3.0"/>
+		<dependency id="Xamarin.Android.Support.v7.RecyclerView" version="23.3.0" />
+	</dependencies>
   </metadata>
   <files>
   	<file src="..\SectionedRecyclerview.Droid\bin\Release\SectionedRecyclerview.Droid.dll" target="lib\MonoAndroid" />
