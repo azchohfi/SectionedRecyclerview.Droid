@@ -52,7 +52,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SectionedRecyclerview.Droid, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SectionedRecyclerview.Droid.Binding.1.2.0\lib\MonoAndroid\SectionedRecyclerview.Droid.dll</HintPath>
+      <HintPath>..\packages\SectionedRecyclerview.Droid.Binding.1.0.22\lib\MonoAndroid\SectionedRecyclerview.Droid.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
