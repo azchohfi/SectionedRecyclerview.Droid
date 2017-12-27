@@ -11,4 +11,9 @@
     <field jni-name="Fragment_tag" clr-name="Tag" value="2" />
   </mapping>
   -->
+  <mapping jni-class="com/afollestad/sectionedrecyclerview/SectionedRecyclerViewAdapter" clr-enum-type="SectionedRecyclerview.Droid.SectionedRecyclerViewAdapterViewType">
+    <field jni-name="VIEW_TYPE_FOOTER" clr-name="Footer" value="-3" />
+    <field jni-name="VIEW_TYPE_HEADER" clr-name="Header" value="-2" />
+    <field jni-name="VIEW_TYPE_ITEM" clr-name="Item" value="-1" />
+  </mapping>
 </enum-field-mappings>

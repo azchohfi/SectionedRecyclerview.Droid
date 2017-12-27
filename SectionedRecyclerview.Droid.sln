@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectionedRecyclerview.Droid", "SectionedRecyclerview.Droid\SectionedRecyclerview.Droid.csproj", "{3816EB04-7B8A-47EE-B6F0-553C01DABBD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroidTestApp", "DroidTestApp\DroidTestApp.csproj", "{5BBE360F-E563-404E-A407-DDC9DA1A0090}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,17 @@ Global
 		{3816EB04-7B8A-47EE-B6F0-553C01DABBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3816EB04-7B8A-47EE-B6F0-553C01DABBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3816EB04-7B8A-47EE-B6F0-553C01DABBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BBE360F-E563-404E-A407-DDC9DA1A0090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBE360F-E563-404E-A407-DDC9DA1A0090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBE360F-E563-404E-A407-DDC9DA1A0090}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5BBE360F-E563-404E-A407-DDC9DA1A0090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBE360F-E563-404E-A407-DDC9DA1A0090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BBE360F-E563-404E-A407-DDC9DA1A0090}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD60C749-FC44-4FFD-A93E-9CC6F331AA24}
 	EndGlobalSection
 EndGlobal

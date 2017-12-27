@@ -9,4 +9,5 @@
   <attr path="/api/package[@name='com.afollestad.sectionedrecyclerview']" name="managedName">SectionedRecyclerview.Droid</attr>
   <attr path="/api/package[@name='com.afollestad.sectionedrecyclerview']/interface[@name='ItemProvider']" name="visibility">public</attr>
   <attr path="/api/package[@name='com.afollestad.sectionedrecyclerview']/class[@name='SectionedRecyclerViewAdapter']/method[@name='getItemViewType' and count(parameter)=1 and parameter[1][@type='int']]" name="deprecated">not deprecated</attr>
+  <attr path="/api/package[@name='com.afollestad.sectionedrecyclerview']/class[@name='SectionedRecyclerViewAdapter']/method[@name='onBindViewHolder' and count(parameter)=2 and parameter[1][@type='VH'] and parameter[2][@type='int']]/parameter[@name='p0']" name="type">android.support.v7.widget.RecyclerView.ViewHolder</attr>
 </metadata>
